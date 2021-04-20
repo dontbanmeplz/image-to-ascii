@@ -3,8 +3,8 @@ try:
 except ImportError:
     import PIL
     from PIL import Image
-ASCII_CHARS = ["@", "#", "S", "%", "?", "*", "+", ";", ":", ",", "."]
-
+#ASCII_CHARS = ["@", "#", "S", "%", "?", "*", "+", ";", ":", ",", "."]
+ASCII_CHARS = ["□"]
 a = ''
 
 class ImageToAscii:
